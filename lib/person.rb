@@ -37,6 +37,10 @@ class Person
         self.hygiene > 7 ? true : false
     end
 
+    def get_paid(amount)
+        @bank_account += amount
+    end
+
 end
 
 
