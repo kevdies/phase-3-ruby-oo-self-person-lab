@@ -38,7 +38,13 @@ class Person
     end
 
     def get_paid(amount)
-        @bank_account += amount
+        self.bank_account += amount
+        "all about the benjamins"
+    end
+
+    def take_bath
+        self.hygiene += 4
+        "♪ Rub-a-dub just relaxing in the tub ♫"
     end
 
 end
